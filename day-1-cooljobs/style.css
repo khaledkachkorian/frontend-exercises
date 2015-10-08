@@ -1,0 +1,89 @@
+body {
+    background-color: #FFF;
+    font-family: 'Lato', sans-serif;
+}
+
+#content {
+    width: 950px;
+    margin: 0 auto;
+}
+
+#content #header {
+    margin-bottom: 60px;
+    line-height: 45px;
+}
+
+#content #header h1 {
+    font-family: 'Francois One', sans-serif;
+}
+
+#content #search-bar {
+    background-color: #efefef;
+    padding: 20px 35px;
+    border-radius: 50px;
+    margin-bottom: 60px;
+}
+
+#content #search-bar input[type=text] {
+    float: left;
+    font-size: 16px;
+    padding: 8px 8px 8px 30px;
+    width: 370px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#content #search-bar a.btn {
+    text-decoration: none;
+    background-color: #c00;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 20px 8px;
+    border-radius: 5px;
+    border-bottom: 3px solid #900;
+    float:right;
+}
+
+#content #header, .jobs h2 {
+    text-align: center;
+}
+
+.jobs h2 {
+    color: #c00;
+}
+
+.jobs ul li {
+    list-style-type: none;
+    padding: 15px;
+    border-bottom: 1px #CCC solid;
+    font-size: 19px;
+}
+
+.jobs .featured {
+    background-color: #ffc;
+}
+
+.jobs ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.jobs ul li a span.company {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.jobs ul li a span.date {
+    float: right;
+    clear: right;
+}
+
+.jobs ul li a span.title {
+    color: #39c;
+    text-decoration: underline;
+}
+
+.clear {
+    clear: both;
+}
