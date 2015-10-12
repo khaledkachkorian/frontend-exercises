@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title><%= current_page.data.title || "Aweome Jobs" %></title>
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+        <%= stylesheet_link_tag "all" %>
+    </head>
+    <body>
+
+  <div id="content">
+      <div id="header">
+        <h1>Awesome Jobs</h1>
+        <h3>Listing awesome jobs since 2015!</h3>
+      </div>
+
+      <div id="search-bar">
+        <input type="text" name="jobtype" value="" placeholder="Search: Javascript, CSS, Coding cats..."/>
+        <a href="#" class="btn">Post a job: $200 for 30 days</a>
+        <div class="clear"></div>
+      </div>
+      
+      <%= yield %>
+    </div>
+  </body>
+</html>
