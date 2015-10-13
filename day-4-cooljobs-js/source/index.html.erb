@@ -1,0 +1,19 @@
+---
+title: Cool Jobs
+---
+	<% data.jobs.each do |j| %>
+	<div class="jobs">
+		<h2><%= j.title %></h2>
+		<ul>
+			<% j.jobs.each do |job| %>
+			<li>
+				<a href="#">
+					<span class="company"><%= job.company %></span>
+					<span class="title"><%= job.title %></span>
+					<span class="date"><%= job.date %></span>
+				</a>
+			</li>
+			<% end %>
+		</ul>
+	</div>
+	<% end %>
